@@ -5,10 +5,17 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;   
+
+    /* ScrollBar */
+
 }
 
 body {
-    background: #1f242d;
+    background: hsla(219, 18%, 15%, 1);
+    background: linear-gradient(90deg, hsla(219, 18%, 15%, 1) 0%, hsla(0, 5%, 7%, 1) 100%);
+    background: -moz-linear-gradient(90deg, hsla(219, 18%, 15%, 1) 0%, hsla(0, 5%, 7%, 1) 100%);
+    background: -webkit-linear-gradient(90deg, hsla(219, 18%, 15%, 1) 0%, hsla(0, 5%, 7%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#1F242D", endColorstr="#141212", GradientType=1 );
     color: #fff;
 }
 
