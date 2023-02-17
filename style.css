@@ -234,3 +234,11 @@ body {
         transform: translateY(0);
     }
 }
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background: var(--seconds);
+}
