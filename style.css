@@ -68,7 +68,7 @@ body {
     margin-right: -20px;
     border-radius: 40px;
     opacity: 0;
-    animation: zoomIn 1s ease forwards, floatImage 4s ease-in-out infinite;
+    animation: zoomIn 5s ease forwards, floatImage 4s ease-in-out infinite;
 }
 
 .home-content h3 {
