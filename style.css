@@ -105,6 +105,7 @@ body {
 
 .home-content {
     max-width: 600px;
+    animation: zoomIn 1s ease forwards, floatImageInverse 4s ease-in-out infinite;
 }
 
 .social-media a {
@@ -215,7 +216,19 @@ body {
         transform: translateY(0);
     }
     50% {
-        transform: translateY(-24px);
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes floatImageInverse {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(15px);
     }
     100% {
         transform: translateY(0);
