@@ -317,11 +317,15 @@ body {
 }
 
 .services {
-    margin-top: 90px;
-    height: 100%;
+    height: 100vh;
+}
+
+.services h2 {
+    margin: 50px 0;
 }
 
 .services-container {
+    /* margin: 100px 0; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -341,4 +345,18 @@ body {
 
 .services-box i {
     font-size: 100px;
+    color: #0ef;
+}
+
+.services-box a {
+    margin: 20px 0;
+}
+
+.services-box h3 {
+    margin: 10px 0;
+    font-size: 30px;
+}
+
+.services-box p {
+    font-size: small;
 }
