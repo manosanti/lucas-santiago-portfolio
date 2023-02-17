@@ -44,6 +44,7 @@
 
 
 body {
+    scroll-behavior: smooth;
     background: hsl(219, 18%, 15%);
     background: linear-gradient(90deg, hsla(219, 18%, 15%, 1) 0%, hsla(0, 5%, 7%, 1) 100%);
     background: -moz-linear-gradient(90deg, hsla(219, 18%, 15%, 1) 0%, hsla(0, 5%, 7%, 1) 100%);
@@ -291,5 +292,26 @@ body {
 }
 
 .about-img img {
+    border-radius: 40px;
     width: 35vw;
+}
+
+.heading {
+    text-align: center;
+    font-size: 4.5rem;
+}
+
+.about-content h2 {
+    text-align: left;
+    line-height: 1.2;
+}
+
+.about-content h3 {
+    font-size: 2.6rem;
+}
+
+.about-content p {
+    font-size: 1rem;
+    margin: 2rem 0 3rem;
+    max-width: 700px;
 }
