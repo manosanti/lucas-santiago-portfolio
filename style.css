@@ -422,13 +422,14 @@ body {
 
 .programming-language {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .programming-language p {
     margin-right: 10px;
+    margin-bottom: 10px;
     background: #2b3d66;
     padding: 3px 10px;
     text-align: center;
     border-radius: 20px;
-    width: fit-content;
 }
