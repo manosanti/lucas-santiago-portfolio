@@ -288,7 +288,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 2rem;
-    background: var(--seconds);
+    background: #101216a6;
 }
 
 .about-img img {
@@ -319,7 +319,9 @@ body {
 /* Services */
 
 .services {
+    padding: 40px 0;
     height: 80vh;
+    background: #101216e5;
 }
 
 .services h2 {
@@ -366,6 +368,8 @@ body {
 
 .portfolio {
     margin-bottom: 200px;
+    padding: 100px 0;
+    background: #0a0b0eb4;
 }
 
 .portfolio-layer p {
@@ -396,7 +400,7 @@ body {
 .portfolio-box {
     padding: 15px;
     width: min-content;
-    background: #00000067;
+    background: #181d2bda;
     border-radius: 15px;
 }
 
