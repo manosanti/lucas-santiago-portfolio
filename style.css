@@ -360,3 +360,28 @@ body {
 .services-box p {
     font-size: small;
 }
+
+/* PORTFOLIO SECTION */
+
+.portfolio-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    gap: 2.5rem;
+    /* padding: 0px 100px;
+    display: flex;
+    justify-content: space-between; */
+}
+
+.portfolio h2 {
+    margin-bottom: 4rem;
+}
+
+.portfolio-box {
+    width: min-content;
+}
+
+.portfolio-box img {
+    width: 380px;
+    border-radius: 15px;
+}
