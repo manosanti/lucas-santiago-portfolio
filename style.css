@@ -364,13 +364,13 @@ body {
 /* PORTFOLIO SECTION */
 
 .portfolio-container{
-    display: grid;
+    /* display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
-    gap: 2.5rem;
-    /* padding: 0px 100px;
+    gap: 2.5rem; */
+    padding: 0px 100px;
     display: flex;
-    justify-content: space-between; */
+    justify-content: space-between;
 }
 
 .portfolio h2 {
