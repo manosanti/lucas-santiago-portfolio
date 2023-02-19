@@ -433,3 +433,29 @@ body {
     text-align: center;
     border-radius: 20px;
 }
+
+.view-code {
+    margin-top: 5px;
+    cursor: pointer;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 8px;
+    grid-row-gap: 0px;
+}
+
+.view-code  i {
+    font-size: 20px;
+    background: #2b3d66;
+    text-align: center;
+    padding: 10px 5px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.view-code a {
+    text-decoration: none;
+    color: #fff;
+}
