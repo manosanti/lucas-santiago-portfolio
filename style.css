@@ -467,7 +467,7 @@ body {
 
 .contact-me {
     background: #0104138e;
-    height: 500px;
+    padding: 100px 0;
 }
 
 .contact-container{
@@ -514,7 +514,7 @@ body {
 }
 
 .contact-right h2{
-    color: #22C35D;
+    color: #182646;
 	position: relative;
 	padding: 0 0 10px;
 	margin-bottom: 10px;
@@ -529,7 +529,7 @@ body {
     height: 4px;
     width: 50px;
     border-radius: 2px;
-    background-color: #2ecc71;
+    background-color: #182646;
 }
 
 .contact-field{
@@ -554,7 +554,7 @@ textarea{
 .contact-btn{
 	width: 100%;
 	padding: 0.5rem 1rem;
-	background-color: #2ecc71;
+	background-color: #182646;
 	color: #fff;
 	font-size: 1.1rem;
 	border: none;
@@ -564,7 +564,7 @@ textarea{
 }
 
 .contact-btn:hover{
-    background-color: #27ae60;
+    background-color: #182646;
 }
 
 .contact-field:focus{
