@@ -600,6 +600,7 @@ textarea {
 
 .box-icon a {
     text-decoration: none;
+    font-weight: 600;
 }
 
 .box-icon i {
