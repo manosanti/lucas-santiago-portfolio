@@ -499,12 +499,12 @@ body {
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-	background-color: #fff;
+	background-color: gray;
 	box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.19);
 }
 
 .contact-left{
-	background: url("img/bg.jpg") no-repeat center;
+    padding: 30px;
 	background-size: cover;
 	height: 100%;
 }
@@ -513,7 +513,17 @@ body {
 	padding: 25px 40px;
 }
 
-.contact-right h2{
+.contact-left h2 {
+    color: #182646;
+    text-align: start;
+}
+
+.contact-left p {
+    color: black;
+    text-align: start;
+}
+
+.contact-right h2 {
     color: #182646;
 	position: relative;
 	padding: 0 0 10px;
@@ -571,6 +581,12 @@ textarea{
     border: 2px solid rgba(30,85,250,0.47);
     background-color: #fff;
 }
+
+.box-icon i{
+    text-align: start;
+    align-items: center;
+}
+
 
 @media screen and (max-width: 880px){
 	.contact-box{
