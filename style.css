@@ -72,6 +72,17 @@ body {
     z-index: 100;
 }
 
+.language {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    padding-left: 20px;
+    animation: slideTop .7s ease forwards;
+    animation-delay: calc(.2s * var(--i));
+    opacity: 0;
+}
+
 .logo {
     font-size: 25px;
     color: #fff;
@@ -627,4 +638,10 @@ textarea {
 	.contact-left{
 		height: 200px;
 	}
+}
+
+.a-languages {
+    display: flex;
+    float: right;
+    padding: 0 1px;
 }
