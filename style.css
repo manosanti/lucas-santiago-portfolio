@@ -367,7 +367,6 @@ body {
 /* PORTFOLIO SECTION */
 
 .portfolio {
-    margin-bottom: 200px;
     padding: 100px 0;
     background: #0a0b0eb4;
 }
@@ -462,4 +461,41 @@ body {
 .view-code a {
     text-decoration: none;
     color: #fff;
+}
+
+/*  Section: Contact-Me */
+
+.contact-me {
+    background: #0104138e;
+    height: 500px;
+}
+
+.contact-field {
+    padding: 0 300px;
+    justify-content: space-between;
+    display: flex;
+    /* display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 0px; */
+}
+
+.description-fied input {
+    display: flex;
+}
+
+.contact-form {
+    border-radius: 15px;
+    background: red;
+    padding: 30px;
+    display: flexbox;
+}
+
+.dddd {
+    display: flexbox;
+}
+
+.dddd button {
+    display: flex;
 }
