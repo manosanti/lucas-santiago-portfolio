@@ -295,6 +295,7 @@ body {
 }
 
 .about {
+    padding: 0 10%;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -318,8 +319,16 @@ body {
     line-height: 1.2;
 }
 
+.about-content h2 span {
+    font-size: 20px;
+}
+
 .about-content h3 {
     font-size: 2.6rem;
+}
+
+.about-content h3 span {
+    color: #0ef;
 }
 
 .about-content p {
