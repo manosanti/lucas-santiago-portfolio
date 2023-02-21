@@ -339,8 +339,7 @@ body {
 /* Services */
 
 .services {
-    padding: 40px 0;
-    height: 80vh;
+    padding: 12% 0;
     background: #101216e5;
 }
 
@@ -352,32 +351,45 @@ body {
     gap: 2rem;
 }
 
-.services-box {
-    padding: 20px;
-    text-align: center;
-    border-radius: 30px;
-    width: 400px;
-    height: min-content;
-    background: #181d2bda;
-    border: 1px solid #009EA9;
+.image-container {
+    overflow-x: hidden;
+    width: 1200px;
 }
 
-.services-box i {
+.image-wrapper {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: calc((100% - (1.5rem * (var(--per-view) - 1))) / var(--per-view));
+    grid-gap: 1.5rem;
+    position: relative;
+    left: 0;
+    transition: .3s;
+}
+
+.image-wrapper i {
     font-size: 100px;
     color: #0ef;
 }
 
-.services-box a {
+.image-wrapper a {
     margin: 20px 0;
 }
 
-.services-box h3 {
+.image-wrapper h3 {
     margin: 10px 0;
     font-size: 30px;
 }
 
-.services-box p {
+.image-wrapper p {
     font-size: small;
+}
+
+.image-wrapper > * {
+    padding: 20px;
+    text-align: center;
+    border-radius: 30px;
+    height: min-content;
+    border: 1px solid #009EA9;
 }
 
 /* PORTFOLIO SECTION */
