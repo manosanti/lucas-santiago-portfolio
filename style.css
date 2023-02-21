@@ -295,8 +295,7 @@ body {
 }
 
 .about {
-    padding: 0 10%;
-    height: 100vh;
+    padding: 200px 10%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -346,7 +345,7 @@ body {
 }
 
 .services h2 {
-    margin: 50px 0;
+    /* margin: 50px 0; */
 }
 
 .services-container {
