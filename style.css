@@ -295,7 +295,8 @@ body {
 }
 
 .about {
-    padding: 200px 10%;
+    /* height: 100vh; */
+    padding: 6% 0 10%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -339,7 +340,7 @@ body {
 /* Services */
 
 .services {
-    padding: 12% 0;
+    padding: 7% 0 6% 0;
     background: #101216e5;
 }
 
