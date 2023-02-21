@@ -356,6 +356,10 @@ body {
     width: 1200px;
 }
 
+.image-wrapper div {
+    height: auto;
+}
+
 .image-wrapper {
     display: grid;
     grid-auto-flow: column;
@@ -381,10 +385,11 @@ body {
 }
 
 .image-wrapper p {
-    font-size: small;
+    font-size: medium;
 }
 
 .image-wrapper > * {
+
     padding: 20px;
     text-align: center;
     border-radius: 30px;
