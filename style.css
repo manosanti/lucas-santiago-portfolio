@@ -389,7 +389,8 @@ body {
 }
 
 .image-wrapper > * {
-
+    background: rgb(0,158,169);
+    background: linear-gradient(180deg, rgba(0,158,169,0.15718005952380953) 0%, rgba(17,19,23,0) 60%);
     padding: 20px;
     text-align: center;
     border-radius: 30px;
