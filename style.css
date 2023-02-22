@@ -440,7 +440,10 @@ body {
 
 .portfolio-box img {
     width: 340px;
+    height: 250px;
     border-radius: 15px;
+    object-fit: cover;
+    object-position: center;
 }
 
 .work-progress {
@@ -470,6 +473,7 @@ body {
     padding: 3px 10px;
     text-align: center;
     border-radius: 20px;
+    cursor: pointer;
 }
 
 .view-code {
