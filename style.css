@@ -495,6 +495,12 @@ body {
     align-items: center;
     justify-content: space-between;
     border-radius: 10px;
+    transition: .9s;
+}
+
+.view-code :hover {
+    border-radius: 10px;
+    background: #22c35d73;
 }
 
 .view-code a {
