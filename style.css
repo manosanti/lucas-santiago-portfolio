@@ -58,7 +58,6 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    /* padding: 20px 10%; */
     padding: 20px 12% 20px 10%;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
@@ -123,7 +122,6 @@ body {
 }
 
 .home-img img {
-    /* max-width: max-content; */
     margin-right: -20px;
     border-radius: 40px;
     opacity: 0;
@@ -184,7 +182,6 @@ body {
     opacity: 0;
     animation: slideLeft 1s ease forwards;
     animation-delay: calc(.1s * var(--i));
-
 }
 
 .social-media a:hover {
@@ -209,93 +206,7 @@ body {
     animation-delay: calc(.7s * var(--i));
 }
 
-/* KEYFRAMES ANIMATION */
-@keyframes slideRight {
-    0% {
-        transform: translateX(-100px);
-        opacity: 0;
-    }
-    100% {
-        transform: translateX(0);
-        opacity: 1;
-    }
-    
-}
-
-@keyframes slideLeft {
-    0% {
-        transform: translateX(100px);
-        opacity: 0;
-    }
-    100% {
-        transform: translateX(0);
-        opacity: 1;
-    }
-    
-}
-
-@keyframes slideTop {
-    0% {
-        transform: translateY(100px);
-        opacity: 0;
-    }
-    100% {
-        transform: translateY(0);
-        opacity: 1;
-    }
-    
-}
-
-@keyframes slideBottom {
-    0% {
-        transform: translateY(-100px);
-        opacity: 0;
-    }
-    100% {
-        transform: translateY(0);
-        opacity: 1;
-    }
-    
-}
-
-@keyframes zoomIn {
-    0% {
-        transform: scale(0);
-        opacity: 0;
-    }
-    100% {
-        transform: scale(1);
-        opacity: 1;
-    }
-    
-}
-
-@keyframes floatImage {
-    0% {
-        transform: translateY(0);
-    }
-    50% {
-        transform: translateY(-10px);
-    }
-    100% {
-        transform: translateY(0);
-    }
-}
-
-@keyframes floatImageInverse {
-    0% {
-        transform: translateY(0);
-    }
-    50% {
-        transform: translateY(15px);
-    }
-    100% {
-        transform: translateY(0);
-    }
-}
-
 .about {
-    /* height: 100vh; */
     padding: 6% 0 10%;
     display: flex;
     justify-content: center;
@@ -337,7 +248,7 @@ body {
     max-width: 700px;
 }
 
-/* Services */
+/* Section > Services */
 
 .services {
     padding: 7% 0 6% 0;
@@ -390,8 +301,6 @@ body {
 }
 
 .image-wrapper > * {
-    background: rgb(0,158,169);
-    background: linear-gradient(180deg, rgba(0,158,169,0.15718005952380953) 0%, rgba(17,19,23,0) 60%);
     padding: 20px;
     text-align: center;
     border-radius: 30px;
@@ -399,7 +308,7 @@ body {
     border: 1px solid #009EA9;
 }
 
-/* PORTFOLIO SECTION */
+/* Section > Portfolio */
 
 .portfolio {
     padding: 100px 0;
@@ -508,7 +417,7 @@ body {
     color: #fff;
 }
 
-/*  Section: Contact-Me */
+/*  Section > Contact */
 
 .contact-me {
     background: #04050e96;
@@ -656,13 +565,105 @@ textarea {
     margin-right: 10px;
 }
 
-.test1 {
+.hire-me {
     font-size: 15.4px;
     color: #182646e3;
 }
 
 .contact-box {
     border-radius: 10px;
+}
+
+.language-icons {
+    display: inline-block;
+}
+
+.language-icons a {
+    margin-right: -30px;
+}
+
+@keyframes slideRight {
+    0% {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    
+}
+
+@keyframes slideLeft {
+    0% {
+        transform: translateX(100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    
+}
+
+@keyframes slideTop {
+    0% {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    
+}
+
+@keyframes slideBottom {
+    0% {
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    
+}
+
+@keyframes zoomIn {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    
+}
+
+@keyframes floatImage {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes floatImageInverse {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(15px);
+    }
+    100% {
+        transform: translateY(0);
+    }
 }
 
 @media screen and (max-width: 880px){
@@ -672,12 +673,4 @@ textarea {
 	.contact-left{
 		height: 200px;
 	}
-}
-
-.language-icons {
-    display: inline-block;
-}
-
-.language-icons a {
-    margin-right: -30px;
 }
