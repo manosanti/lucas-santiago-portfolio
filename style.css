@@ -582,6 +582,46 @@ textarea {
     margin-right: -30px;
 }
 
+.contact-content {
+    display: flex;
+    background: #fff;
+    width: fit-content;
+    padding: 40px;
+    border-radius: 20px;
+    margin: auto;
+    align-items: center;
+    height: 700px;
+}
+
+.left-field {
+    max-width: 500px;
+}
+
+.left-field h1 {
+    font-size: 40px;
+    color: #254eac;
+}
+
+.left-field p {
+    color: rgba(0, 0, 0, 0.788);
+    font-weight: 600;
+}
+
+.left-field button {
+    background: #254eac;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    width: 100%;
+    padding: 15px 0;
+    cursor: pointer;
+}
+
+.right-field {
+    margin-left: 40px;
+}
+
 @keyframes slideRight {
     0% {
         transform: translateX(-100px);
