@@ -424,6 +424,10 @@ body {
     padding: 100px 0;
 }
 
+.contact-me h2 {
+    margin-bottom: 50px;
+}
+
 .contact-container{
 	position: relative;
 	width: 100%;
@@ -607,6 +611,11 @@ textarea {
     font-weight: 600;
 }
 
+.left-field input, textarea {
+    border-radius: 6px;
+    margin: 15px 0;
+}
+
 .left-field button {
     background: #254eac;
     font-size: 20px;
@@ -616,6 +625,11 @@ textarea {
     width: 100%;
     padding: 15px 0;
     cursor: pointer;
+}
+
+.left-field button:hover {
+    background: #103283;
+    transition: .3s;
 }
 
 .right-field {
