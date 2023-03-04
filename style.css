@@ -269,7 +269,7 @@ body {
 }
 
 .image-wrapper div {
-    height: auto;
+    height: 450px;
 }
 
 .image-wrapper {
@@ -298,6 +298,7 @@ body {
 
 .image-wrapper p {
     font-size: medium;
+    margin-top: 10px;
 }
 
 .image-wrapper > * {
@@ -590,11 +591,11 @@ textarea {
     display: flex;
     background: #fff;
     width: fit-content;
-    padding: 40px;
+    height: min-content;
+    padding: 60px 0 60px 50px;
     border-radius: 20px;
     margin: auto;
     align-items: center;
-    height: 700px;
 }
 
 .left-field {
