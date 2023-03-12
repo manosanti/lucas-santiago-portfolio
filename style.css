@@ -754,9 +754,12 @@ textarea {
     .portfolio h2 {
         font-size: 50px;
     }
-    
+
+    .portfolio {
+        padding: 0 20%;
+    }
+
     .portfolio-container {
-        margin-left: 75px;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(1, 1fr);
