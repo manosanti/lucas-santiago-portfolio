@@ -263,6 +263,14 @@ body {
     gap: 2rem;
 }
 
+.services-description {
+    text-align: center; 
+    margin-top: -10px; 
+    margin-bottom: 50px; 
+    font-size: 16.7px; 
+    color: #0ef;
+}
+
 .image-container {
     overflow-x: hidden;
     width: 1200px;
@@ -591,11 +599,231 @@ textarea {
     }
 }
 
-@media screen and (max-width: 880px){
-	.contact-box{
-		grid-template-columns: 1fr;
-	}
-	.contact-left{
-		height: 200px;
-	}
+/* Responsive */
+
+@media (max-width: 320px) {
+    .home {
+        flex-direction: column;
+      }
+    
+      .home-content {
+        order: 2;
+        text-align: center;
+      }
+    
+      .home-img {
+        order: 1;
+        margin-bottom: 20px;
+      }
+    
+      .social-media {
+        margin-right: 0;
+      }
+    
+      .btn {
+        margin-top: 20px;
+      }
+    }
+    
+    /* Para telas maiores que 768px (como tablets e desktops) */
+    @media screen and (min-width: 320px) and (max-width: 480px) {
+
+    .header {
+        display: none;
+    }
+
+    .about-img {
+        display: none;
+    }
+
+    .header {
+        height: 160px;
+        max-width: 100px;
+        margin-bottom: 500px;
+    }
+    
+    .home {
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .btn {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .home h3 {
+        font-size: 20px;
+    }
+
+    .home h1 {
+        font-size: 32px;
+    }
+
+    .home-img img {
+        display: none;
+    }
+
+    .home-content {
+        text-align: left;
+    }
+
+    .social-media a {
+        display: none;
+    }
+
+
+    .about {
+        padding: 80px 15%;
+    }
+
+    .about-content h2 {
+        font-size: 50px;
+    }
+
+    .about-content h3 {
+        font-size: 30px;
+    }
+
+    .services {
+        padding: 50px 0;
+    }
+
+    .services h2 {
+        font-size: 50px;
+    }
+
+    .services-description {
+        margin-top: 0;
+        font-size: 10px;
+        padding: 0 20%;
+    }
+
+    .image-container {
+        overflow-x: hidden;
+        width: 1200px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .image-wrapper div {
+        height: 400px;
+    }
+    
+    .image-wrapper {
+        display: grid;
+        grid-auto-flow: column;
+        grid-auto-columns: calc((100% - (1.5rem * (var(--per-view) - 1))) / var(--per-view));
+        grid-gap: 1.5rem;
+        position: relative;
+        left: 0;
+        transition: .3s;
+    }
+    
+    .image-wrapper i {
+        font-size: 100px;
+        color: #0ef;
+    }
+    
+    .image-wrapper a {
+        margin: 20px 0;
+    }
+    
+    .image-wrapper h3 {
+        margin: 10px 0;
+        font-size: 20px;
+    }
+    
+    .image-wrapper p {
+        font-size: medium;
+        margin-top: 10px;
+        font-size: 10px;
+    }
+    
+    .image-wrapper > * {
+        padding: 20px;
+        text-align: center;
+        border-radius: 30px;
+        height: min-content;
+        border: 1px solid #009EA9;
+    }
+
+    .portfolio h2 {
+        font-size: 50px;
+    }
+    
+    .portfolio-container {
+        margin-left: 20px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        padding-left: 0;
+    }
+
+    .portfolio-box {
+        width: min-content;
+        height: min-content;
+    }
+
+    .portfolio-box img {
+        width: 250px;
+        height: 200px;
+        border-radius: 15px;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .work-progress i {
+        font-size: 10px;
+    }
+
+    .work-progress p {
+        font-size: 12px;
+    }
+
+    .portfolio-layer p {
+        font-size: 15px;
+    }
+
+    /* Contact Section */
+
+    .contact-me {
+        padding-top: 30px;
+        padding: 0 4%;
+    }
+
+    .contact-me h2 {
+        font-size: 50px;
+        padding: 20%;
+    }
+
+    .right-field {
+        display: none;
+    }
+
+    .contact-content {
+        padding-right: 30px;
+    }
+
+    .left-field {
+        margin-left: -15px;
+    }
+
+    .left-field h1 {
+        font-size: 30px;
+    }
+
+    .left-field p {
+        font-size: 12px;
+    }
+
+    .left-field input {
+        font-size: 15px;
+    }
+
+    .left-field textarea {
+        font-size: 15px;
+    }
 }

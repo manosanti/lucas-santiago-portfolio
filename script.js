@@ -22,7 +22,7 @@ function toggleContent() {
 const imageWrapper = document.querySelector('.image-wrapper')
 const imageItems = document.querySelectorAll('.image-wrapper > *')
 const imageLength = imageItems.length
-const perView = 3
+const perView = 1
 let totalScroll = 0
 const delay = 6000
 
