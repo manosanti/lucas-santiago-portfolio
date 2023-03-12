@@ -599,33 +599,6 @@ textarea {
     }
 }
 
-/* Responsive */
-
-@media (max-width: 320px) {
-    .home {
-        flex-direction: column;
-      }
-    
-      .home-content {
-        order: 2;
-        text-align: center;
-      }
-    
-      .home-img {
-        order: 1;
-        margin-bottom: 20px;
-      }
-    
-      .social-media {
-        margin-right: 0;
-      }
-    
-      .btn {
-        margin-top: 20px;
-      }
-    }
-    
-    /* Para telas maiores que 768px (como tablets e desktops) */
     @media screen and (min-width: 320px) and (max-width: 480px) {
 
     .header {
@@ -644,7 +617,6 @@ textarea {
     
     .home {
         text-align: center;
-        padding-top: 50px;
         padding-bottom: 50px;
     }
 
