@@ -692,6 +692,7 @@ textarea {
     }
 
     .services h2 {
+        padding: 30px;
         font-size: 50px;
     }
 
@@ -755,7 +756,7 @@ textarea {
     }
     
     .portfolio-container {
-        margin-left: 20px;
+        margin-left: 75px;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(1, 1fr);
